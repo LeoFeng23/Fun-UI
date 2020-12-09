@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49dc5bf8-6fbf-4079-b7f0-e151b50fd680" name="Default Changelist" comment="初始化仓库-添加顶部导航栏组件">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-fs-ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/doc/Button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/doc/Dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/doc/Switch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/doc/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/main/children/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main/children/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/main/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/main/index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="package.json" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lPFmOmQ5MUh7oRWQJqMuMxC4iO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/iconfont" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\src\assets\iconfont" />
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\src\assets" />
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\src\assets\iconfont" />
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\src\views\main\children" />
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\src\views\main" />
+      <recent name="D:\Others\MyRepostity\Code\PageProjects\WebStormProjects\Vue\my-fs-ui\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49dc5bf8-6fbf-4079-b7f0-e151b50fd680" name="Default Changelist" comment="" />
+      <created>1607490977297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607490977297</updated>
+      <workItem from="1607490978484" duration="7422000" />
+      <workItem from="1607515811778" duration="12517000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化仓库-添加顶部导航栏组件">
+      <created>1607505957329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607505957329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现aside导航栏显示隐藏的切换">
+      <created>1607519849796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607519849797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化仓库-添加顶部导航栏组件" />
+    <MESSAGE value="实现aside导航栏显示隐藏的切换" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现aside导航栏显示隐藏的切换" />
+  </component>
+</project>

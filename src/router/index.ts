@@ -14,7 +14,27 @@ export const router: Router = createRouter({
                 },
                 {
                     path: 'doc',
-                    component: () => import('../views/main/children/Doc.vue')
+                    component: () => import('../views/main/children/Doc.vue'),
+                    redirect: '/doc/switch',
+                    children: [
+                        {
+                            path: 'switch',
+                            component: () => import('../components/doc/Switch.vue')
+                        },
+                        {
+                            path: 'button',
+                            component: () => import('../components/doc/Button.vue')
+                        },
+                        {
+                            path: 'tabs',
+                            component: () => import('../components/doc/Tabs.vue')
+                        },
+                        {
+                            path: 'dialog',
+                            component: () => import('../components/doc/Dialog.vue')
+                        },
+
+                    ]
                 },
             ]
         },

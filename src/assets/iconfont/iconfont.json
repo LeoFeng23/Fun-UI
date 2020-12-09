@@ -1,0 +1,23 @@
+{
+  "id": "2057071",
+  "name": "空项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7395236",
+      "name": "菜单",
+      "font_class": "toggle",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15685597",
+      "name": "箭头_向下",
+      "font_class": "jiantou_xiangxia",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 <template>
     <nav class="top-nav">
-        <div class="logo" @click="toggleMenu">
+        <div class="toggle-menu-nav iconfont icon-toggle" @click="toggleMenu"></div>
+        <div class="logo">
             logo
         </div>
         <nav class="menu-nav">
@@ -21,11 +22,9 @@ export default {
     name: "TopNav",
     setup() {
         const menuVisible = inject<Ref<boolean>>('menuVisible');
-        console.log(menuVisible?.value + '   top nav');
         const toggleMenu = () => {
             if (menuVisible) {
                 menuVisible.value = !menuVisible?.value
-                console.log(menuVisible.value)
             }
         }
 
@@ -37,14 +36,31 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/iconfont/iconfont.css";
+
 .top-nav {
   height: 60px;
   background: #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px 0 30px;
-  min-width: 800px;
+  padding: 0 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  .toggle-menu-nav {
+    padding: 5px;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    &.icon-toggle {
+      font-size: 30px;
+    }
+  }
 
   .logo {
     user-select: none;
@@ -56,10 +72,25 @@ export default {
 
   .menu-nav {
     display: flex;
+    padding-right: 50px;
 
     .menu-nav-item {
       box-sizing: border-box;
       margin: 0 20px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .logo {
+      margin: 0 auto;
+    }
+
+    .menu-nav {
+      display: none;
+    }
+
+    .toggle-menu-nav {
+      display: block;
     }
   }
 }
