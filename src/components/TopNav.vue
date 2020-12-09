@@ -1,6 +1,6 @@
 <template>
     <nav class="top-nav">
-        <div class="logo">
+        <div class="logo" @click="toggleMenu">
             logo
         </div>
         <nav class="menu-nav">
@@ -15,8 +15,24 @@
 </template>
 
 <script lang="ts">
+import {inject, Ref} from 'vue'
+
 export default {
-    name: "TopNav"
+    name: "TopNav",
+    setup() {
+        const menuVisible = inject<Ref<boolean>>('menuVisible');
+        console.log(menuVisible?.value + '   top nav');
+        const toggleMenu = () => {
+            if (menuVisible) {
+                menuVisible.value = !menuVisible?.value
+                console.log(menuVisible.value)
+            }
+        }
+
+        return {
+            toggleMenu
+        }
+    }
 }
 </script>
 
@@ -29,6 +45,14 @@ export default {
   align-items: center;
   padding: 0 100px 0 30px;
   min-width: 800px;
+
+  .logo {
+    user-select: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 
   .menu-nav {
     display: flex;

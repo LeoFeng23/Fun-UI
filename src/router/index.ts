@@ -1,16 +1,22 @@
 import {createRouter, createWebHashHistory, Router} from "vue-router";
-import doc from '../views/Doc.vue'
 
 export const router: Router = createRouter({
     history: createWebHashHistory(),
     routes: [
         {
-            path: '/doc',
-            component: doc
-        },
-        {
             path: '/',
-            component: () => import('../views/Home.vue')
+            component: () => import('../views/main/index.vue'),
+            redirect: '/home',
+            children: [
+                {
+                    path: 'home',
+                    component: () => import('../views/main/children/Home.vue')
+                },
+                {
+                    path: 'doc',
+                    component: () => import('../views/main/children/Doc.vue')
+                },
+            ]
         },
     ]
 })

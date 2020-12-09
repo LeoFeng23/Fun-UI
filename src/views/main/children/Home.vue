@@ -1,5 +1,5 @@
 <template>
-    <TopNav/>
+<!--    <TopNav/>-->
     <main class="main-content">
         <h1 class="main-name">FS-UI</h1>
         <article class="main-des">一个很不错的UI组件库</article>
@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import TopNav from "../components/TopNav.vue";
+import TopNav from "../../../components/TopNav.vue";
 
 export default {
     name: "home",
